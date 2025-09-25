@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Checkout form</h1>
+    <form action="" id="checkout-form">
+        <label for="">Fullname</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Kev Wesley">
+        <br>
+        <label for="">Age</label>
+        <input type="number" name="age" id="age" placeholder="18" min="1" max="100">
+        <br>
+        <label for="email">Email</label>
+        <input type="email"  name="email" id="email">
+        <label for="">City</label>
+        <input type="text" name="city" id="city">
+        <br>
+        <button id="submit">Submit</button>
+    </form>
+    <script src="index.js" ></script>
+</body>
+</html>
